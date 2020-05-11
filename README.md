@@ -1,4 +1,4 @@
-![Inxton logo](https://github.com/Inxton/documentation/raw/master/assets/logo.png)
+![Inxton logo](https://github.com/Inxton/Inxton.Vortex.Framework/raw/master/assets/logo.png)
 
 # Inxton.Core - Template
 
