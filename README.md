@@ -1,6 +1,6 @@
 ![Inxton logo](https://github.com/Inxton/Inxton.Vortex.Framework/raw/master/assets/logo.png)
 
-# Inxton.Essentials - Template
+# Inxton.Core - Template
 
 Clone this repository or [download zip](https://github.com/Inxton/template.core/archive/master.zip) to build something amazing with INXTON.
 
