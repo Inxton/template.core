@@ -11,7 +11,7 @@ Make sure you have everything you need to start using examples in this repositor
 
 ## What to do next?
 
-Checkout documentation  (https://github.com/Inxton/documentation).
+Checkout [documentation](https://github.com/Inxton/documentation).
 
 Checkout examples  
 * [Examples-Inxton.Package.Vortex.Core](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core) 
