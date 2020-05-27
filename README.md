@@ -6,7 +6,7 @@ Clone this repository or [download zip](https://github.com/Inxton/template.core/
 
 ## Check the prerequisites
 
-Make sure you have everything you need to start using examples in this repository [here](https://github.com/Inxton/documentation/blob/master/PREREQUISITES.MD).
+Make sure you have everything you need to start using examples in this repository [here](https://github.com/Inxton/documentation/blob/master/common/PREREQUISITES.md).
 
 
 ## What to do next?
