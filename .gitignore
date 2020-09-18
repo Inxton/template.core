@@ -202,3 +202,4 @@ _Vortex/pal.txt
 _Vortex/*.dll
 _Vortex/*.exe
 _Vortex/builder/**
+_Vortex/CompilerCache.md

@@ -279,7 +279,7 @@ namespace Plc
             /// This is POCO object for its respective onliner class. For documentation of this type see the onliner class.
             /// </summary>
             /// <exclude />
-	public partial class PlainMAIN : Vortex.Connector.IPlain
+	public partial class PlainMAIN : System.ComponentModel.INotifyPropertyChanged, Vortex.Connector.IPlain
 	{
 		System.String _Hello_World;
 		public System.String Hello_World
@@ -291,7 +291,11 @@ namespace Plc
 
 			set
 			{
-				_Hello_World = value;
+				if (_Hello_World != value)
+				{
+					_Hello_World = value;
+					PropertyChanged?.Invoke(this, new System.ComponentModel.PropertyChangedEventArgs(nameof(Hello_World)));
+				}
 			}
 		}
 
@@ -335,6 +339,7 @@ namespace Plc
 			this.CopyShadowToPlain((Plc.MAIN)source);
 		}
 
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
 		public PlainMAIN()
 		{
 		}
