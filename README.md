@@ -1,4 +1,4 @@
-![Inxton logo](https://github.com/Inxton/documentation/raw/master/assets/logo.png)
+![Inxton logo](https://github.com/Inxton/Inxton.Vortex.Framework/raw/master/assets/logo.png)
 
 # Inxton.Core - Template
 
@@ -6,18 +6,27 @@ Clone this repository or [download zip](https://github.com/Inxton/template.core/
 
 ## Check the prerequisites
 
-Make sure you have everything you need to start using examples in this repository [here](https://github.com/Inxton/documentation/blob/master/PREREQUISITES.MD).
+Make sure you have everything you need to start using examples in this repository [here](https://github.com/Inxton/documentation/blob/master/common/PREREQUISITES.md).
+
+
+### Update packages
+You may encounter this error message
+```
+The Vortex Builder does not exists
+=============== Build cancelled ===============
+```
+To fix this issue go to Package manager console and type `Update-Package -Reinstall`
+
+![packager_mngr_view](https://raw.githubusercontent.com/Inxton/documentation/master/common/assets/package_manager_console_view.png)
+![packager_mngr_cmd](https://raw.githubusercontent.com/Inxton/documentation/master/common/assets/package_manager_console_command.png)
 
 
 ## What to do next?
 
-Checkout documentation  [Inxton.Package.Vortex.Core](https://github.com/Inxton/documentation)
+Checkout [documentation](https://github.com/Inxton/documentation).
 
-Checkout examples  [Examples - Inxton.Package.Vortex.Core](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core)
-
-
-Install the extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Inxton.InxtonVortexBuilderExtensionPre)
- 
+Checkout examples  
+* [Examples-Inxton.Package.Vortex.Core](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core) 
 
 # Need help?
 
@@ -37,16 +46,6 @@ Install the extension from [Visual Studio Marketplace](https://marketplace.visua
 We are more than happy to hear your feedback, ideas!
 Just submit it [here](https://github.com/Inxton/Feedback/issues/new/choose)  
 
-
-# License
- 
-TL;DR;
-> Developers are encouraged to use this project -  free of charge, although when you want to use it in the production environment, you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a license.
-
-to make our lawyers happy - read the whole license agreement [here](https://github.com/Inxton/about/blob/master/license.md)
-
-
-
 ---
-Developed with ♥ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
+Developed with ❤ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
  
