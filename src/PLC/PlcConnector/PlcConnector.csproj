@@ -11,7 +11,7 @@
     <Folder Include="_generated\Plc\" />
   </ItemGroup>  
   <ItemGroup>
-    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.6.5" />
+    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.1-preview.3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Localizations.Designer.cs">
