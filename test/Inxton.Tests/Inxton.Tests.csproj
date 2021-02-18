@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.1-preview.3" />
+		<PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.2-preview.1" />
 		<ProjectReference Include="..\..\src\PLC\PlcConnector\PlcConnector.csproj" />
 	</ItemGroup>
 

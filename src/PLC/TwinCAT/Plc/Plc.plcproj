@@ -15,6 +15,12 @@
     <Implicit_KindOfTask>{8f6c4742-7ec3-4f33-b6ce-1b9ffdcafb90}</Implicit_KindOfTask>
     <Implicit_Jitter_Distribution>{053a0bb7-9874-49ce-9318-076bc7e91075}</Implicit_Jitter_Distribution>
     <LibraryReferences>{5ec7f9f2-80fd-41d0-bc2a-d92de308d555}</LibraryReferences>
+    <DefaultNamespace>Plc</DefaultNamespace>
+    <Released>false</Released>
+    <Company>Inxton</Company>
+    <Placeholder>Plc</Placeholder>
+    <Title>Inxton</Title>
+    <ProjectVersion>0.0.0.1</ProjectVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PlcTask.TcTTO">
@@ -52,8 +58,8 @@
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-  <Data>
-    <o xml:space="preserve" t="OptionKey">
+        <Data>
+          <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
         <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
@@ -80,13 +86,13 @@
       </d>
       <d n="Values" t="Hashtable" />
     </o>
-  </Data>
-  <TypeList>
-    <Type n="Hashtable">System.Collections.Hashtable</Type>
-    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-    <Type n="String">System.String</Type>
-  </TypeList>
-</XmlArchive>
+        </Data>
+        <TypeList>
+          <Type n="Hashtable">System.Collections.Hashtable</Type>
+          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+          <Type n="String">System.String</Type>
+        </TypeList>
+      </XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>

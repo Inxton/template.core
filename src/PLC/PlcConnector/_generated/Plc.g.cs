@@ -7,6 +7,7 @@ using Vortex.Connector.Identity;
 using PlcConnector.Properties;
 
 [assembly: Vortex.Connector.Attributes.AssemblyPlcCounterPart("{\r\n  \"Types\": [\r\n    {\r\n      \"TypeAttributes\": \"\\n{attribute addProperty Name \\\"\\\" }\",\r\n      \"TypeName\": \"MAIN\",\r\n      \"Namespace\": \"Plc\",\r\n      \"TypeMetaInfo\": 3\r\n    }\r\n  ],\r\n  \"Name\": \"Plc\",\r\n  \"Namespace\": \"Plc\"\r\n}")]
+#pragma warning disable SA1402, CS1591, CS0108, CS0067
 namespace Plc
 {
 	public partial class PlcTwinController : Vortex.Connector.ITwinController, IPlcTwinController, IShadowPlcTwinController
