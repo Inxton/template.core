@@ -4,14 +4,12 @@
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\_Vortex\out\Plc\src\singles\MAIN.g.cs" Link="_generated\Plc\MAIN.g.cs" />
-    <Compile Include="..\..\..\_Vortex\out\Plc\src\singles\Plc.g.cs" Link="_generated\Plc\Plc.g.cs" />
+    <Compile Remove="_generated\Plc\**" />
+    <EmbeddedResource Remove="_generated\Plc\**" />
+    <None Remove="_generated\Plc\**" />
   </ItemGroup>  
   <ItemGroup>
-    <Folder Include="_generated\Plc\" />
-  </ItemGroup>  
-  <ItemGroup>
-    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.6.5" />
+    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Localizations.Designer.cs">

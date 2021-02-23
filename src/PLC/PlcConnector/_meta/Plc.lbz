@@ -1,0 +1,20 @@
+{
+  "AliasBlocks": [],
+  "EnumBlocks": [],
+  "FunctionBlocks": [],
+  "GlobalVariableTables": [],
+  "Name": "Plc",
+  "Namespace": null,
+  "ProgramBlocks": [
+    {
+      "ImplementationText": "",
+      "Methods": [],
+      "Properties": [],
+      "Name": "MAIN",
+      "DeclarationText": "[NS : '' NAME : 'MAIN']\nPROGRAM MAIN\nVAR\n\t{attribute addProperty Name \"Hello world\"}\n\tHello_World : STRING;\nEND_VAR\n",
+      "MirrorFiles": null
+    }
+  ],
+  "StructBlocks": [],
+  "UnionBlocks": []
+}
