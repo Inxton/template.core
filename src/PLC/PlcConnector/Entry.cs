@@ -1,4 +1,4 @@
-﻿// #define LOCAL
+﻿#define LOCAL
 using Vortex.Adapters.Connector.Tc3.Adapter;
 
 namespace Plc
