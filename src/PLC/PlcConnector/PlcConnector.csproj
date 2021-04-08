@@ -9,7 +9,7 @@
     <None Remove="_generated\Plc\**" />
   </ItemGroup>  
   <ItemGroup>
-    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.4" />
+    <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.9.6" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Localizations.Designer.cs">
